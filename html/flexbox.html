@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: auto;width:auto;background-color: aqua;display: flex;justify-content: space-around; 
+        }
+
+        .child{
+            height: 200px;width: 150px;background-color: chocolate;margin: 10px;
+        }
+        .navbar{
+            width: auto;height: 100px;
+            display: flex;margin-bottom: 20px;justify-content: space-around;background-color: yellow;
+        }
+        .nav{
+         height:50px;width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav">Logo</div>
+        <div class="nav">Home</div>
+        <div class="nav">About</div>
+        <div><input type="text" placeholder="search"></div>
+        <div class="nav">Contact</div>
+
+    </div>
+    <div class="parent">
+        <div class="child">Card-1</div>
+        <div class="child">Card-2</div>
+        <div class="child">Card-3</div>
+        <div class="child">Card-4</div>
+    </div>
+    
+</body>
+</html>
